@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <div class="overlay"></div>
     <img class="fog" src="assets/img/fog.webp" alt="gradient">
     <img class="clouds" src="assets/img/clouds.webp" alt="clouds">
     <img class="mountains" src="assets/img/mountains.webp" alt="mountains">
@@ -34,7 +35,7 @@
     </header>
     <main>
         <section class="welcome flex justify-between align-center">
-            <div>
+            <div class="social-links flex flex-column align-center">
                 <p>Follow us</p>
                 <a href="#">
                     <img src="assets/img/instagram-logo.svg" alt="instagram logo">
@@ -43,14 +44,17 @@
                     <img src="assets/img/twitter-logo.svg" alt="twitter logo">
                 </a>
             </div>
-            <div>
-                <span>A HIKING GUIDE</span>
+            <div class="title">
+                <div class="flex align-center">
+                    <span class="line"></span>
+                    <span>A HIKING GUIDE</span>
+                </div>
                 <h1>Be prepared for the Mountains and beyond!</h1>
-                <a href="#">scroll down
+                <a class="flex align-center" href="#"> scroll down
                     <img src="assets/img/arrow-pointing-down.svg" alt="arrow pointing down">
                 </a>
             </div>
-            <ul>
+            <ul class="slider">
                 <li>
                     <a href="#">Start</a>
                 </li>
@@ -64,6 +68,32 @@
                     <a href="#">03</a>
                 </li>
             </ul>
+        </section>
+        <section class="hiking-guide">
+                <ol>
+                    <li>
+                        <article class="flex align-center justify-center">
+                            <div class="text-content">
+                                <div class="flex align-center">
+                                    <span class="line"></span>
+                                    <span>GET STARTED</span>
+                                </div>
+                                <h2>
+                                   What level of  hiker are you?
+                                </h2>
+                                <p>
+                                    Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker? 
+                                </p>
+                
+                            </div>
+                            <div class="img-content">
+                                <img src="assets/img/hiker-photo.png" alt="hiking photo">
+                            </div>
+                           
+
+                        </article>
+                    </li>
+                </ol>
         </section>
     </main>
 </body>
